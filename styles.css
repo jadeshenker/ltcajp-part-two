@@ -1,7 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 300;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed; /* set the navbar to fixed position */
+    top: 0; /* position the navbar at the top of the page */
+    width: 100%; /* full width */
 }
 
 .nav-list {
@@ -27,4 +39,21 @@ body {
 
 .nav-link:hover {
     color: rgb(255, 209, 240);
+}
+
+.grid {
+    display: flex;
+    padding: 0 25px;
+}
+
+.grid-col {
+    width: 33%;
+}
+
+.grid-img {
+    width: 100%;
+}
+
+.grid-item {
+    margin: 5px;
 }
