@@ -1,0 +1,30 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    /* flex properties */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    transition: 0.4s color ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(255, 209, 240);
+}
