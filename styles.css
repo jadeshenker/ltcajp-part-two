@@ -6,6 +6,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 300;
+    line-height: 1.5;
 }
 
 .nav-bar {
@@ -27,17 +28,17 @@ body {
 
 .nav-item {
     margin-left: 20px;
+    font-size: 16px;
 }
 
-.nav-link {
+.link {
     text-decoration: none;
     font-weight: 600;
-    font-size: 16px;
     color: black;
     transition: 0.4s color ease-in-out;
 }
 
-.nav-link:hover {
+.link:hover {
     color: rgb(255, 209, 240);
 }
 
@@ -56,4 +57,14 @@ body {
 
 .grid-item {
     margin: 5px;
+}
+
+.about-container {
+    max-width: 400px;
+    padding: 25px;
+}
+
+.bold-pink-text {
+    color: rgb(255, 97, 202);
+    font-weight: 600;
 }
